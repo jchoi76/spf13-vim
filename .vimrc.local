@@ -1,0 +1,37 @@
+" Exit insert mode shortcut
+:imap hh <Esc>
+ 
+" NERDTree
+map <Leader>nn :NERDTreeToggle<cr>
+map <Leader>nf :NERDTreeFind<cr>
+ 
+" CTRL-P
+map <Leader>b :CtrlPBuffer<cr>
+ 
+" Write buffer
+map <Leader>w :w<cr>
+ 
+" Navigate to quickfix window
+map <Leader>c :cope<cr>
+ 
+" Delete buffer
+map <Leader>d :bd<cr>
+ 
+" Seach with Ack
+map <Leader>s :Ack<Space>
+ 
+" load file using CtrlP
+map <Leader>l :CtrlP<cr>
+ 
+" Disable unneeded bundles
+UnBundle 'tpope/vim-rails'
+UnBundle 'wting/rust.vim'
+UnBundle 'cespare/vim-toml'
+UnBundle 'saltstack/salt-vim'
+UnBundle 'rodjek/vim-puppet'
+UnBundle 'klen/python-mode'
+UnBundle 'yssource/python.vim'
+UnBundle 'python_match.vim'
+UnBundle 'pythoncomplete'
+UnBundle 'tpope/vim-cucumber'
+UnBundle 'quentindecock/vim-cucumber-align-pipes'
