@@ -1,8 +1,11 @@
 " Exit insert mode shortcut
 :imap hh <Esc>
 
-" disable cursorline as it slows vim considerably
+" Disable cursorline as it slows vim considerably
 :set nocursorline
+
+" Disable folding
+set nofoldenable
  
 " NERDTree
 map <Leader>nn :NERDTreeToggle<cr>
