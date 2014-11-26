@@ -21,7 +21,7 @@ map <Leader>w :w<cr>
 map <Leader>c :cope<cr>
  
 " Delete buffer
-map <Leader>d :bd<cr>
+map <Leader>d :bp<bar>sp<bar>bn<bar>bd<CR>
  
 " Seach with Ack
 map <Leader>s :Ack<Space>
