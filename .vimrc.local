@@ -1,3 +1,6 @@
+" Execute php script using ctrl-m
+:autocmd FileType php noremap <C-M> :w!<CR>:!/usr/bin/php %<CR>
+
 " Exit insert mode shortcut
 :imap hh <Esc>
 
