@@ -26,8 +26,8 @@ map <Leader>c :cope<cr>
 " Delete buffer
 map <Leader>d :bp<bar>sp<bar>bn<bar>bd<CR>
  
-" Seach with Ack
-map <Leader>s :Ack<Space>
+" Seach with Ag
+map <Leader>s :Ag<Space>
  
 " load file using CtrlP
 map <Leader>l :CtrlP<cr>
