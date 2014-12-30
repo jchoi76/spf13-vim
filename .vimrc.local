@@ -5,7 +5,7 @@
 :imap hh <Esc>
 
 " Disable cursorline as it slows vim considerably
-:set nocursorline
+:set cursorline
 
 " Disable folding
 set nofoldenable
