@@ -15,6 +15,13 @@ let mapleader=" "
 " Disable cursorline as it slows vim considerably
 :set cursorline
 
+set t_Co=256
+syntax enable
+set background=dark
+colorscheme railscasts
+
+hi SpellBad   ctermfg=015  ctermbg=100   cterm=none   guifg=#FFFFFF   guibg=#000000   gui=none
+
 " Disable folding
 set nofoldenable
  
