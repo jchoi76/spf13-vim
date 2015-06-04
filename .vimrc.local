@@ -2,7 +2,10 @@
 " Use Ag to search for files, lighning fast! ;)
 unlet g:ctrlp_user_command
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
- 
+
+" Map leader to spacebar
+let mapleader=" "
+
 " Execute php script using ctrl-m
 :autocmd FileType php noremap <C-M> :w!<CR>:!/usr/bin/php %<CR>
 
